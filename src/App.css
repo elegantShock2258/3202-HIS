@@ -20,29 +20,13 @@ body {
 .tabsList {
     display: flex;
     flex-direction: column;
+    gap: 10px !important;
 
-    background-color: black !important;
-    height: 100vh;
-    padding-right: 0px !important;
-    border-top-right-radius: 0px !important;
+    background-color: transparent !important;
 }
 
-.tab{
-    padding: 10px !important;
-}
-
-
-.tab>span {
-    border-top-right-radius: 0px !important;
-    border-bottom-right-radius: 0px !important;
-
-    border-top-left-radius: 20px !important;
-    border-bottom-left-radius: 20px !important;
-}
-
-* {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px !important;
+.tab {
+    padding: 25px 8px !important;
 }
 
 .navbar {
@@ -51,11 +35,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: black !important;
-    padding-left: 5px;
-    margin: 5px 20px;
+    padding-left: 20px;
     margin-right: 0px;
-    border-radius: 25px !important;
+
 }
 
 .tabContentContainer>div>div {
@@ -68,6 +50,7 @@ body {
 .tabContentContainer>div {
     margin-left: 0px;
     box-shadow: none !important;
+    border-radius: 0px !important;
     width: 100%;
     height: 100%;
 }
@@ -84,4 +67,21 @@ body {
 
     display: flex;
     justify-content: flex-start;
+}
+
+.logo {
+    position: absolute !important;
+    top: 8%;
+    transform: translate(-2%, 0);
+    font-size: 3.5rem !important;
+    color: white !important;
+    opacity: 1 !important;
+    text-decoration: underline;
+}
+
+.cursor{
+    background-color: #000000 !important;
+    width: 5px;
+    height: 80%;
+    margin-top: 10%;
 }
